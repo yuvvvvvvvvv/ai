@@ -1,0 +1,28 @@
+2025-05-24 19:42:01,423 - __main__ - INFO - Starting model training process
+2025-05-24 19:42:06,809 - __main__ - INFO - Training models for M5 timeframe
+2025-05-24 19:42:06,810 - data_fetcher - ERROR - Error fetching historical data: name 'mt5' is not defined
+2025-05-24 19:42:06,812 - __main__ - ERROR - No data available for XAUUSD M5
+2025-05-24 19:42:06,812 - __main__ - INFO - Training models for M15 timeframe
+2025-05-24 19:42:06,812 - data_fetcher - ERROR - Error fetching historical data: name 'mt5' is not defined
+2025-05-24 19:42:06,813 - __main__ - ERROR - No data available for XAUUSD M15
+2025-05-24 19:42:06,813 - __main__ - INFO - Training models for H1 timeframe
+2025-05-24 19:42:06,813 - data_fetcher - ERROR - Error fetching historical data: name 'mt5' is not defined
+2025-05-24 19:42:06,814 - __main__ - ERROR - No data available for XAUUSD H1
+2025-05-24 19:42:06,814 - __main__ - INFO - Training models for H4 timeframe
+2025-05-24 19:42:06,814 - data_fetcher - ERROR - Error fetching historical data: name 'mt5' is not defined
+2025-05-24 19:42:06,814 - __main__ - ERROR - No data available for XAUUSD H4
+2025-05-24 19:42:06,814 - __main__ - INFO - Model training completed successfully
+2025-05-24 19:45:51,793 - __main__ - INFO - Starting model training process
+2025-05-24 19:45:55,530 - __main__ - INFO - Training models for M5 timeframe
+2025-05-24 19:45:55,531 - data_fetcher - ERROR - Error fetching historical data: name 'mt5' is not defined
+2025-05-24 19:45:55,532 - __main__ - ERROR - No data available for XAUUSD M5
+2025-05-24 19:45:55,532 - __main__ - INFO - Training models for M15 timeframe
+2025-05-24 19:45:55,532 - data_fetcher - ERROR - Error fetching historical data: name 'mt5' is not defined
+2025-05-24 19:45:55,532 - __main__ - ERROR - No data available for XAUUSD M15
+2025-05-24 19:45:55,532 - __main__ - INFO - Training models for H1 timeframe
+2025-05-24 19:45:55,532 - data_fetcher - ERROR - Error fetching historical data: name 'mt5' is not defined
+2025-05-24 19:45:55,532 - __main__ - ERROR - No data available for XAUUSD H1
+2025-05-24 19:45:55,532 - __main__ - INFO - Training models for H4 timeframe
+2025-05-24 19:45:55,532 - data_fetcher - ERROR - Error fetching historical data: name 'mt5' is not defined
+2025-05-24 19:45:55,533 - __main__ - ERROR - No data available for XAUUSD H4
+2025-05-24 19:45:55,533 - __main__ - INFO - Model training completed successfully

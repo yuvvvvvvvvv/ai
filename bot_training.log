@@ -1,0 +1,58 @@
+2025-05-25 08:10:06,638 - __main__ - ERROR - Failed to load data: Missing column provided to 'parse_dates': 'timestamp'
+2025-05-25 08:10:06,638 - __main__ - CRITICAL - Training pipeline failed: Missing column provided to 'parse_dates': 'timestamp'
+2025-05-25 08:11:15,872 - __main__ - INFO - Data loaded and prepared successfully
+2025-05-25 08:11:15,872 - __main__ - CRITICAL - Training pipeline failed: 'AIModel' object has no attribute 'train_lstm'
+2025-05-25 08:14:04,448 - __main__ - INFO - Data loaded and prepared successfully
+2025-05-25 08:14:04,448 - __main__ - CRITICAL - Training pipeline failed: 'AIModel' object has no attribute 'train_lstm_model'
+2025-05-25 08:28:51,680 - __main__ - INFO - Data loaded and prepared successfully
+2025-05-25 08:28:51,684 - __main__ - INFO - Training LSTM model...
+2025-05-25 08:28:51,688 - ai_model - ERROR - Error training LSTM model: "None of [Index(['open', 'high', 'low', 'close', 'volume'], dtype='object')] are in the [columns]"
+2025-05-25 08:28:51,688 - __main__ - ERROR - LSTM training failed: "None of [Index(['open', 'high', 'low', 'close', 'volume'], dtype='object')] are in the [columns]"
+2025-05-25 08:28:51,688 - __main__ - CRITICAL - Training pipeline failed: "None of [Index(['open', 'high', 'low', 'close', 'volume'], dtype='object')] are in the [columns]"
+2025-05-25 08:31:39,938 - __main__ - WARNING - Missing required columns in data/merged_5M_2024_to_2015.csv. Please check data format.
+2025-05-25 08:31:39,942 - __main__ - ERROR - Failed to load data: Required columns missing in data/merged_5M_2024_to_2015.csv
+2025-05-25 08:31:39,942 - __main__ - CRITICAL - Training pipeline failed: Required columns missing in data/merged_5M_2024_to_2015.csv
+2025-05-25 08:32:59,707 - __main__ - INFO - Data loaded and prepared successfully
+2025-05-25 08:32:59,709 - __main__ - INFO - Training LSTM model...
+2025-05-25 08:47:16,211 - ai_model - INFO - LSTM model training completed successfully
+2025-05-25 08:47:16,233 - __main__ - INFO - LSTM training completed
+2025-05-25 08:47:16,236 - __main__ - INFO - Training Transformer model...
+2025-05-25 08:51:48,921 - ai_model - INFO - Transformer model training completed successfully
+2025-05-25 08:51:48,924 - __main__ - INFO - Transformer training completed
+2025-05-25 08:51:48,924 - __main__ - INFO - Training PPO model...
+2025-05-25 08:51:49,009 - ai_model - ERROR - Error training PPO agent: 'AIModel' object has no attribute 'prepare_rl_states'
+2025-05-25 08:51:49,009 - __main__ - ERROR - PPO training failed: 'AIModel' object has no attribute 'prepare_rl_states'
+2025-05-25 08:51:49,010 - __main__ - CRITICAL - Training pipeline failed: 'AIModel' object has no attribute 'prepare_rl_states'
+2025-05-25 09:07:44,822 - __main__ - INFO - Data loaded and prepared successfully
+2025-05-25 09:07:44,822 - __main__ - INFO - Training LSTM model...
+2025-05-25 09:20:53,292 - ai_model - INFO - LSTM model training completed successfully
+2025-05-25 09:20:53,303 - __main__ - INFO - LSTM training completed
+2025-05-25 09:20:53,304 - __main__ - INFO - Training Transformer model...
+2025-05-25 09:25:33,142 - ai_model - INFO - Transformer model training completed successfully
+2025-05-25 09:25:33,143 - __main__ - INFO - Transformer training completed
+2025-05-25 09:25:33,143 - __main__ - INFO - Training PPO model...
+2025-05-25 09:25:33,213 - ai_model - ERROR - Error training PPO agent: 'AIModel' object has no attribute 'prepare_rl_states'
+2025-05-25 09:25:33,213 - __main__ - ERROR - PPO training failed: 'AIModel' object has no attribute 'prepare_rl_states'
+2025-05-25 09:25:33,213 - __main__ - CRITICAL - Training pipeline failed: 'AIModel' object has no attribute 'prepare_rl_states'
+2025-05-25 19:55:27,808 - __main__ - INFO - Data loaded and prepared successfully
+2025-05-25 19:55:27,817 - __main__ - INFO - Training LSTM model...
+2025-05-25 20:05:09,349 - ai_model - INFO - LSTM model training completed successfully
+2025-05-25 20:05:09,361 - __main__ - INFO - LSTM training completed
+2025-05-25 20:05:09,363 - __main__ - INFO - Training Transformer model...
+2025-05-25 20:07:02,079 - ai_model - INFO - Transformer model training completed successfully
+2025-05-25 20:07:02,080 - __main__ - INFO - Transformer training completed
+2025-05-25 20:07:02,081 - __main__ - INFO - Training PPO model...
+2025-05-25 20:07:02,153 - ai_model - ERROR - Error training PPO agent: 'AIModel' object has no attribute 'prepare_rl_states'
+2025-05-25 20:07:02,153 - __main__ - ERROR - PPO training failed: 'AIModel' object has no attribute 'prepare_rl_states'
+2025-05-25 20:07:02,153 - __main__ - CRITICAL - Training pipeline failed: 'AIModel' object has no attribute 'prepare_rl_states'
+2025-05-25 21:01:01,353 - __main__ - INFO - Data loaded and prepared successfully
+2025-05-25 21:01:01,353 - __main__ - INFO - Training LSTM model...
+2025-05-25 21:01:01,353 - __main__ - INFO - Training Transformer model...
+2025-05-25 21:01:01,353 - ai_model - ERROR - Error training Transformer model: This StandardScaler instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-05-25 21:01:01,353 - __main__ - ERROR - Transformer training failed: This StandardScaler instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator.
+2025-05-25 21:01:01,353 - __main__ - INFO - Training PPO model...
+2025-05-25 21:01:01,400 - ai_model - ERROR - Error training LSTM model: name 'DataGenerator' is not defined
+2025-05-25 21:01:01,405 - __main__ - ERROR - LSTM training failed: name 'DataGenerator' is not defined
+2025-05-25 21:01:01,464 - ai_model - ERROR - Error training PPO agent: 'PPOAgent' object has no attribute 'logger'
+2025-05-25 21:01:01,464 - __main__ - ERROR - PPO training failed: 'PPOAgent' object has no attribute 'logger'
+2025-05-25 21:01:01,465 - __main__ - CRITICAL - Training pipeline failed: Training failed for models: LSTM failed: name 'DataGenerator' is not defined, Transformer failed: This StandardScaler instance is not fitted yet. Call 'fit' with appropriate arguments before using this estimator., PPO failed: 'PPOAgent' object has no attribute 'logger'
